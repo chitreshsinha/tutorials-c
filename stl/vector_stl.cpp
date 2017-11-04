@@ -48,6 +48,8 @@ int main() {
 	cout << v.back() << endl;
 	v.pop_back();
 	cout << v.back() << endl;
+	cout << v.max_size() << endl;
+	cout << v.capacity() << endl;
 
 
 
